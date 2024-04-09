@@ -152,7 +152,7 @@ If you're developing on a Mac and [Docker Desktop](https://www.docker.com/produc
 curl -s "https://laravel.build/example-app" | bash
 ```
 
-Of course, you can change "example-app" in this URL to anything you like - just make sure the application name only contains alpha-numeric characters, dashes, and underscores. The Laravel application's directory will be created within the directory you execute the command from.
+Of course, you can change "example-app" in this URL to anything you like - just make sure the application name only contains alphanumeric characters, dashes, and underscores. The Laravel application's directory will be created within the directory you execute the command from.
 
 Sail installation may take several minutes while Sail's application containers are built on your local machine.
 
@@ -189,7 +189,7 @@ Next, you are ready to create your first Laravel project. Launch [Windows Termin
 curl -s https://laravel.build/example-app | bash
 ```
 
-Of course, you can change "example-app" in this URL to anything you like - just make sure the application name only contains alpha-numeric characters, dashes, and underscores. The Laravel application's directory will be created within the directory you execute the command from.
+Of course, you can change "example-app" in this URL to anything you like - just make sure the application name only contains alphanumeric characters, dashes, and underscores. The Laravel application's directory will be created within the directory you execute the command from.
 
 Sail installation may take several minutes while Sail's application containers are built on your local machine.
 
@@ -235,7 +235,7 @@ Then, to create a new Laravel application in a directory named "example-app", yo
 curl -s https://laravel.build/example-app | bash
 ```
 
-Of course, you can change "example-app" in this URL to anything you like - just make sure the application name only contains alpha-numeric characters, dashes, and underscores. The Laravel application's directory will be created within the directory you execute the command from.
+Of course, you can change "example-app" in this URL to anything you like - just make sure the application name only contains alphanumeric characters, dashes, and underscores. The Laravel application's directory will be created within the directory you execute the command from.
 
 Sail installation may take several minutes while Sail's application containers are built on your local machine.
 

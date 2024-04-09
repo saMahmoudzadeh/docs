@@ -380,7 +380,7 @@ The `Str::charAt` method returns the character at the specified index. If the in
 <a name="method-str-contains"></a>
 #### `Str::contains()` {.collection-method}
 
-The `Str::contains` method determines if the given string contains the given value. This method is case sensitive:
+The `Str::contains` method determines if the given string contains the given value. This method is case-sensitive:
 
     use Illuminate\Support\Str;
 
@@ -529,7 +529,7 @@ The `Str::is` method determines if a given string matches a given pattern. Aster
 <a name="method-str-is-ascii"></a>
 #### `Str::isAscii()` {.collection-method}
 
-The `Str::isAscii` method determines if a given string is 7 bit ASCII:
+The `Str::isAscii` method determines if a given string is 7-bit ASCII:
 
     use Illuminate\Support\Str;
 
@@ -919,7 +919,7 @@ The `Str::replace` method replaces a given string within the string:
 
     // Laravel 11.x
 
-The `replace` method also accepts a `caseSensitive` argument. By default, the `replace` method is case sensitive:
+The `replace` method also accepts a `caseSensitive` argument. By default, the `replace` method is case-sensitive:
 
     Str::replace('Framework', 'Laravel', caseSensitive: false);
 
@@ -1590,7 +1590,7 @@ The `classBasename` method returns the class name of the given class with the cl
 <a name="method-fluent-str-contains"></a>
 #### `contains` {.collection-method}
 
-The `contains` method determines if the given string contains the given value. This method is case sensitive:
+The `contains` method determines if the given string contains the given value. This method is case-sensitive:
 
     use Illuminate\Support\Str;
 
@@ -2221,7 +2221,7 @@ The `replace` method replaces a given string within the string:
 
     // Laravel 7.x
 
-The `replace` method also accepts a `caseSensitive` argument. By default, the `replace` method is case sensitive:
+The `replace` method also accepts a `caseSensitive` argument. By default, the `replace` method is case-sensitive:
 
     $replaced = Str::of('macOS 13.x')->replace(
         'macOS', 'iOS', caseSensitive: false
@@ -2798,7 +2798,7 @@ The `whenIs` method invokes the given closure if the string matches a given patt
 <a name="method-fluent-str-when-is-ascii"></a>
 #### `whenIsAscii` {.collection-method}
 
-The `whenIsAscii` method invokes the given closure if the string is 7 bit ASCII. The closure will receive the fluent string instance:
+The `whenIsAscii` method invokes the given closure if the string is 7-bit ASCII. The closure will receive the fluent string instance:
 
     use Illuminate\Support\Str;
     use Illuminate\Support\Stringable;

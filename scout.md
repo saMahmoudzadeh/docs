@@ -403,7 +403,7 @@ Enabling this feature will also pass the request's IP address and your authentic
 > [!WARNING]  
 > The database engine currently supports MySQL and PostgreSQL.
 
-If your application interacts with small to medium sized databases or has a light workload, you may find it more convenient to get started with Scout's "database" engine. The database engine will use "where like" clauses and full text indexes when filtering results from your existing database to determine the applicable search results for your query.
+If your application interacts with small to medium-sized databases or has a light workload, you may find it more convenient to get started with Scout's "database" engine. The database engine will use "where like" clauses and full text indexes when filtering results from your existing database to determine the applicable search results for your query.
 
 To use the database engine, you may simply set the value of the `SCOUT_DRIVER` environment variable to `database`, or specify the `database` driver directly in your application's `scout` configuration file:
 
@@ -741,7 +741,7 @@ When this configuration option is `true`, Scout will not remove soft deleted mod
 <a name="customizing-engine-searches"></a>
 ### Customizing Engine Searches
 
-If you need to perform advanced customization of the search behavior of an engine you may pass a closure as the second argument to the `search` method. For example, you could use this callback to add geo-location data to your search options before the search query is passed to Algolia:
+If you need to perform advanced customization of the search behavior of an engine you may pass a closure as the second argument to the `search` method. For example, you could use this callback to add geolocation data to your search options before the search query is passed to Algolia:
 
     use Algolia\AlgoliaSearch\SearchIndex;
     use App\Models\Order;
