@@ -155,7 +155,7 @@ Context::when(
 <a name="stacks"></a>
 ### Stacks
 
-Context offers the ability to create "stacks", which are lists of data stored in the order that they where added. You can add information to a stack by invoking the `push` method:
+Context offers the ability to create "stacks", which are lists of data stored in the order that they were added. You can add information to a stack by invoking the `push` method:
 
 ```php
 use Illuminate\Support\Facades\Context;
@@ -198,6 +198,12 @@ The `only` method may be used to retrieve a subset of the information in the con
 
 ```php
 $data = Context::only(['first_key', 'second_key']);
+```
+
+The `pull` method may be used to retrieve information from the context and immediately remove it from the context:
+
+```php
+$value = Context::pull('key');
 ```
 
 If you would like to retrieve all of the information stored in the context, you may invoke the `all` method:
@@ -275,6 +281,7 @@ Context::addHidden(/* ... */);
 Context::addHiddenIf(/* ... */);
 Context::pushHidden(/* ... */);
 Context::getHidden(/* ... */);
+Context::pullHidden(/* ... */);
 Context::onlyHidden(/* ... */);
 Context::allHidden(/* ... */);
 Context::hasHidden(/* ... */);
