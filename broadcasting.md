@@ -293,7 +293,7 @@ npm install --save-dev laravel-echo pusher-js
 
 **Before continuing, you should enable Pusher protocol support in your Ably application settings. You may enable this feature within the "Protocol Adapter Settings" portion of your Ably application's settings dashboard.**
 
-Once Echo is installed, you are ready to create a fresh Echo instance in your application's JavaScript. The `install:broadcasting` command creates an Echo configuration file at `resources/js/echo.js`; however, the default configuration in this file is intended for Laravel Reverb. You may copy the configuration below to transition your configuration to Ably:
+Once Echo is installed, you are ready to create a fresh Echo instance in your application's JavaScript. The `install:broadcasting` command creates an Echo configuration file at `resources/js/echo.js`; however, the default configuration in this file is intended for Laravel Reverb. You may copy the configuration below to transition your configuration too Ably:
 
 ```js
 import Echo from 'laravel-echo';
